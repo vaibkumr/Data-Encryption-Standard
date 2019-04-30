@@ -10,7 +10,7 @@ It uses:
 - 64 bit (56 + 8 parity bits) secret key
 - Bit by bit encryption
 
-## Overview
+# Overview
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/DES-main-network.png/500px-DES-main-network.png)
 
 
@@ -19,6 +19,10 @@ It uses:
 - To generate a new key, run `newKey.py`. The new key will be saved in the file `files/keys.des` (pickled dictionary)
 - Permutation, S blocks and other data is stored in `files/*np` as numpy array
 - Run `main.py` to test DES encryption and decryption.
+
+# Example
+![](https://i.imgur.com/Qe1kpEU.png)
+* Ladies, I use arch btw
 
 # TODO:
 - Bruteforce to make evident how inscure DES is.
